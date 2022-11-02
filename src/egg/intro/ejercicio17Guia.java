@@ -24,7 +24,7 @@ public class ejercicio17Guia {
         int n = leer.nextInt();
         int[] vector = new int[n];
         for (int i = 0; i < n; i++) {
-            vector[i] = (int)(Math.random()*(1-100000)+100000);
+            vector[i] = (int)(Math.random()*11000+1);
         }
         for (int i = 0; i < n; i++) {
             con = (int)(Math.log10(vector[i])+1);
