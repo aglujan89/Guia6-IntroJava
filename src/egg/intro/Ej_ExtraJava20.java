@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package intro;
+package egg.intro;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author feder
  */
-public class ejercicio20extra {
+public class Ej_ExtraJava20 {
 
     /**
      * @param args the command line arguments
@@ -37,6 +37,7 @@ public class ejercicio20extra {
            System.out.print(" "+vector[i]);
            
        }
+       System.out.println("");
    }
     
 }
