@@ -6,6 +6,7 @@
 package egg.intro;
 
 import java.util.Scanner;
+import static jdk.nashorn.internal.objects.NativeString.toLowerCase;
 
 /**
  *
@@ -28,8 +29,8 @@ public class Ej_ExtraJava16 {
      while(!salir){
         pedirDatos();
          System.out.println("Desea seguir ingresando personas Si/No)?");
-         String res=leer.next();
-         if(res.equals("No")){
+         String res=toLowerCase(leer.next());
+         if(res.equals("no")){
              break;
          }
         
